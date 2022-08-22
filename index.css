@@ -9,7 +9,9 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     color: #fff;
-    
+    max-width: 600px;
+    min-width: 300px; 
+    max-height: 75vh;
 }
 
 /**********Layout************/
@@ -29,7 +31,7 @@ body {
 .top-icons {
     display: flex;
     justify-content: space-between;
-    height: 4em;
+    height: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -48,6 +50,7 @@ body {
 .profile-para {
     position: absolute;
     margin: -3rem 2rem;
+    padding-bottom: 2rem;
 }
 
 .bottom-icons {
@@ -64,9 +67,16 @@ body {
     
 }
 
+#icon-profile,
+#icon-logo,
+#icon-chat {
+    height: 3rem;
+    width: auto;
+}
+
 #icon-cross,
 #icon-heart {
-    width: 8rem;
+    width: 5rem;
     height: auto;
     padding: 1rem;
     border-radius: 50%;
@@ -76,20 +86,32 @@ body {
 
 #like {
     display: none;
-    /* margin: -950px 25px; */
+    /* margin: -750px 25px; */
     transform: rotate(-45deg);
-    margin-top: -950px;
+    margin-top: -30rem;
     margin-left: 25px;
-    margin-bottom: 650px;
+    margin-bottom: 30rem;
     position: relative;
+    width: auto;
+    height: 5rem;
 }
 
 #hate {
     display: none;
     /* margin: -64rem 2rem; */
-    margin-top: -950px;
+    margin-top: -30rem;
     margin-left: 25px;
-    margin-bottom: 650px;
+    margin-bottom: 30rem;
     transform: rotate(-45deg);
     position: relative;
+    width: auto;
+    height: 5rem;
 }
+
+/* ******Media Queries********** */
+/* 
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 
+    }
+} */
