@@ -1,2 +1,2 @@
 # Tindog Project
- Solo Scrimba project called TinDog, helping to solidify CSS, JS concepts.
+ Solo Scrimba project called TinDog, helping me to solidify CSS, JS concepts.
