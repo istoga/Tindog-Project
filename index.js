@@ -27,7 +27,8 @@ function seeNewDog() {
     dogIndex += 1
     currentDog = new Character(dogData[dogIndex])
     if(dogIndex === 3) {
-        document.querySelector(".container").innerHTML = `<h1 class="end-app-message">We're sorry, if you are seeing this then you have gone through all of the new profiles in your area.</h1>`
+        let endMsg = document.querySelector(".container").innerHTML = `<h1 class="end-app-message">We're sorry, if you are seeing this then you have gone through all of the new profiles in your area.</h1>`
+        endMsg.style.fontSize = "larger"
     }
     render()
     setTimeout(removeHate(), 1000)
