@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**********Typography************/
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    
+}
+
+/**********Layout************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    background: #f8f8f8;
+    border: solid 5px #000;
+    border-radius: 4%;
+    /* padding: 3rem 2rem; */
+    padding: 25px;
+    position: sticky;
+}
+
+.top-icons {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    margin-bottom: 2rem;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.profile-name {
+    margin: -7rem 2rem 3rem;
+    position: absolute;
+}
+
+.profile-para {
+    position: absolute;
+    margin: -3rem 2rem;
+}
+
+.bottom-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+.end-app-message {
+    font-size: 54px;
+    text-align: center;
+    color: #000;
+    
+}
+
+#icon-cross,
+#icon-heart {
+    width: 8rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: 50%;
+    background: #fff;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#like {
+    display: none;
+    /* margin: -950px 25px; */
+    transform: rotate(-45deg);
+    margin-top: -950px;
+    margin-left: 25px;
+    margin-bottom: 650px;
+    position: relative;
+}
+
+#hate {
+    display: none;
+    /* margin: -64rem 2rem; */
+    margin-top: -950px;
+    margin-left: 25px;
+    margin-bottom: 650px;
+    transform: rotate(-45deg);
+    position: relative;
+}
